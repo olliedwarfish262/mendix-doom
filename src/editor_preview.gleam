@@ -1,12 +1,13 @@
 // Mendix Studio Pro design view preview
 // Shows a static DOOM placeholder in the designer
 
-import glendix/react.{type JsProps, type ReactElement}
-import glendix/react/attribute
-import glendix/react/html
+import glendix/mendix.{type JsProps}
+import redraw.{type Element}
+import redraw/dom/attribute
+import redraw/dom/html
 
 /// Studio Pro design view preview - static DOOM placeholder
-pub fn preview(_props: JsProps) -> ReactElement {
+pub fn preview(_props: JsProps) -> Element {
   html.div(
     [
       attribute.class("mendix-doom-container"),
@@ -24,6 +25,6 @@ pub fn preview(_props: JsProps) -> ReactElement {
         #("letter-spacing", "8px"),
       ]),
     ],
-    [react.text("DOOM")],
+    [html.text("DOOM")],
   )
 }

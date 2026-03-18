@@ -9,3 +9,8 @@
   width: 100%;
   height: 100%;
 }
+
+.mendix-doom-container .w-12.flex-shrink-0,
+.mendix-doom-container .sidebar {
+  display: none !important;
+}

@@ -1,18 +1,14 @@
 // Mendix Studio Pro property panel configuration
 // Defines getProperties, check, getPreview, etc.
 
-// External types (JS objects passed by Mendix)
-pub type Values
-
-pub type Properties
-
-pub type Target
+import glendix/editor_config.{type Properties}
+import glendix/mendix.{type JsProps}
 
 /// Property panel configuration - controls widget property visibility in Studio Pro
 pub fn get_properties(
-  _values: Values,
+  _values: JsProps,
   default_properties: Properties,
-  _target: Target,
+  _platform: String,
 ) -> Properties {
   default_properties
 }
